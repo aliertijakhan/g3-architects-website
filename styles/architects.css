@@ -1,137 +1,173 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 .work-sans-font {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
 /* shared styles */
-    .display-flex{
-        display: flex;
-    }
-    .text-primary{
-        color: #FF900E;
-    }
+.display-flex {
+    display: flex;
+}
+
+.text-primary {
+    color: #FF900E;
+}
+
 /* dark 02 */
-    .text-gray{
-        color: #424242;
-    }
+.text-gray {
+    color: #424242;
+}
+
 /* dark 03 */
-    .text-light-gray{
-        color: #727272;
-    }
+.text-light-gray {
+    color: #727272;
+}
 
-    .bg-light{
-        background-color: rgba(255, 144, 14, 0.1);
-    }
-    .btn-primary{
-        background-color: #FF900E;
-        color: white;
-        padding: 20px 25px;
-        font-size: 1.25rem;
-        font-weight: 600;
-        border-radius: 8px;
-        border: none;
-    }
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
+}
 
-    main{
-        max-width:1440px ;
-        margin: 0 auto;
-    }
+.btn-primary {
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
 
-    main > section{
-        margin-top: 130px;
-    }
-    .section-tittle{
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main>section {
+    margin-top: 130px;
+}
+
+.section-tittle {
     font-size: 2.8rem;
     font-weight: 700;
 }
 
 /* navbar relted styles */
-.navbar{
+.navbar {
     justify-content: space-between;
     align-items: center;
 }
-.brand{
+
+.brand {
     font-weight: 700;
     font-size: 3rem;
 }
-.nav-item{
+
+.nav-item {
     list-style: none;
     margin-right: 30px;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
 }
-.navbar, .banner{
+
+.navbar,
+.banner {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 /* banner related styles */
-.banner-content{
+.banner-content {
     max-width: 850px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 50px;
 }
-.banner-tittle{
+
+.banner-tittle {
     font-weight: 700;
     font-size: 4em;
 }
-.banner-image{
+
+.banner-image {
     width: 100%;
 }
 
 /* team and feature related style */
-.teams{
+.teams {
     align-items: center;
 }
-.team-img-container{
+
+.team-img-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
-.our-features{
+
+.our-features {
     margin-left: 130px;
     max-width: 530px;
 }
 
 
-#quick-list{
+#quick-list {
     font-weight: 500;
-    
+
 }
+
 /* feature section related style */
-.features{
+.features {
     gap: 140px;
 }
-#feature-section-tittle{
-    border-left:5px solid #FF900E ;
+
+#feature-section-tittle {
+    border-left: 5px solid #FF900E;
     padding: 20px;
 }
-.feature-card{
+
+.feature-card {
     border-radius: 8px;
-     padding: 30px;
+    padding: 30px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
     margin-bottom: 20px
-    
 }
-.feature-card .feature-tittle{
+
+.feature-card .feature-tittle {
     font-weight: 600;
     font-size: 1.25rem;
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+#experience-badge {
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -120px;
+}
+
+#experience-year {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.featured-architect {
+    width: 100%;
+}
+
 /* some fact related style */
-.facts-container{
+.facts-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.fact-card{
+
+.fact-card {
     border: 1px solid #FF900E;
     width: 240px;
     height: 240px;
@@ -140,67 +176,102 @@
     align-items: center;
     justify-content: center;
 }
-.fact-number{
+
+.fact-number {
     font-size: 2.8rem;
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.fact-name{
+
+.fact-name {
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 10px;
 }
-.fact-description{
+
+.fact-description {
     max-width: 540px;
 }
 
 /* sponsor related styles */
-.sponsors-info{
+.sponsors-info {
     max-width: 540px;
     margin: 50px auto;
     text-align: center;
 }
 
-.sponsors-companies{
+.sponsors-companies {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
-.sponsors-companies img{
+
+.sponsors-companies img {
     filter: grayscale(100%);
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+   margin: 100px 200px;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
 /* responsive media query */
 @media screen and (max-width:576px) {
+
     .navbar,
     .nav-link,
-    .teams{
+    .features,
+    .teams {
 
-       flex-direction: column;
+        flex-direction: column;
     }
+
     .team-img-container,
     .facts-container,
-    .sponsors-companies{
-        grid-template-columns: repeat(1,1fr);
+    .sponsors-companies {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .facts-container,.sponsors-companies{
+
+    .facts-container,
+    .sponsors-companies {
         justify-items: center;
         gap: 24px;
     }
-    .our-features{
+
+    .our-features {
+        margin-left: 20px;
+    }
+
+    #experience-badge {
+        margin-top: 20px;
         margin-left: 20px;
     }
 }
+
 /* medium size device */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
+
+    .teams,
+    .features {
         flex-direction: column;
     }
-    .our-features{
+
+    .our-features {
         margin: 50px auto;
     }
-    .sponsors-companies,.facts-container{
+
+    .sponsors-companies,
+    .facts-container {
         justify-items: center;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 50px;
+    }
+
+    #experience-badge {
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
